@@ -30,7 +30,7 @@
 <audio class="song-audio-autoplay" controls loop style="display: none;visibility: hidden">
     <source src="./index_files/music.mp3" type="audio/mp3"/>
 </audio>
-<img src="wordcloud.png" width="300" height="300">
+
 <style type="text/css">
     .rotateImages{
         -webkit-animation:myRotate 10s linear infinite;
@@ -69,6 +69,7 @@
 </div>
 
 <script type="text/javascript">
+	<img src="wordcloud.png" width="400" height="300">
     $('#code').html(config.lines.map(item => {
         return `<span class="say">${item}</span><br>
 						<span class="say"> </span><br>`
